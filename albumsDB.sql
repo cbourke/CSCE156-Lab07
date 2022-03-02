@@ -1735,11 +1735,11 @@ insert into AlbumSong (trackNumber,trackLength,albumId,songId) values (10, 344, 
 
 insert into Musician (musicianId,firstName,lastName,country) values (250, 'Florence', 'Welch', 'Great Britain');
 insert into Musician (musicianId,firstName,lastName,country) values (251, 'Isabella', 'Summers', 'Great Britain');
-insert into Musician (musicianId,firstName,lastName,country) values (800, 'Jack', 'Antonoff', 'USA');
 
 insert into Band (bandId,name) values (340,'Florence and the Machine');
 insert into Band (bandId,name) values (90,'Childish Gambino');
-insert into Band (bandId,name) values (800,'Bleachers');
+# Jack Antonoff: 
+insert into Band (bandId,name) values (305,'Bleachers'); 
 insert into Band (bandId,name) values (950,'Paul Simon');
 
 insert into BandMember (musicianId,bandId) values (250,340);
