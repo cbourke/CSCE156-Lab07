@@ -46,14 +46,9 @@ Prior to lab you should read/review the following resources.
     -   Updating data  
         <http://www.w3schools.com/sql/sql_update.asp>
 
-    -   `count()` aggregate function  
-        <http://www.w3schools.com/sql/sql_func_count.asp>
-
-    -   `max()` aggregate function  
-        <http://www.w3schools.com/sql/sql_func_max.asp>
-
-    -   `min()` aggregate function  
-        <http://www.w3schools.com/sql/sql_func_min.asp>
+    -   Aggregate functions
+        <https://www.w3schools.com/sql/sql_min_max.asp>
+        <https://www.w3schools.com/sql/sql_count_avg_sum.asp>
 
     -   Joining tables inner join  
         <http://www.w3schools.com/sql/sql_join_inner.asp>
