@@ -154,7 +154,7 @@ We have provided a file, `albumQueries.sql` with a list of queries
 for you to write for the albums database.  Write your queries (and
 be sure they work by executing them) in the same file.
 
-### 4. Testing, Submitting & Grading
+## 4. Testing, Submitting & Grading
 
 * Be sure all of your queries run in Workbench
 * ***Important***: Be sure to remove or comment out the `use LOGIN;`
