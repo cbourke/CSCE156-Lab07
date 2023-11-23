@@ -1,9 +1,11 @@
 # Computer Science II
 ## Lab 7.0 - Structured Query Language I
+[School of Computing](https://computing.unl.edu)  
+[College of Engineering](https://engineering.unl.edu/)  
+[University of Nebraska-Lincoln](https://unl.edu)  
+[University of Nebraska-Omaha](https://unomaha.edu)  
 
 An introduction the Structured Query Language (SQL) used in databases.
-
-This is a lab used in Computer Science II (CSCE 156, CSCE 156H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Overview
 
@@ -14,11 +16,9 @@ Prior to lab you should read/review the following resources.
 -   Install MySQL Workbench on your own machine:  
     <https://www.mysql.com/products/workbench/>
     
--   Create a MySQL account by logging in here:
-    <https://cse-apps.unl.edu/amu/login>
-
--   Change the account password using the following directions at:
-    <http://cse.unl.edu/faq-section/unix-linux#node-302>
+-   Your MySQL credentials should have been sent to you via your 
+    school email.  If you change your password, do *not* use the
+    same password as any other account.
 
 -   Review the supplemental SQL Cheat Sheet for the Album Database
 
@@ -105,7 +105,7 @@ the Eclipse IDE.
 
 ## 2. Querying a Database 
 
-You will be connecting to a remote SQL database server on CSE and
+You will be connecting to a remote SQL database server on `cse-linux-01.unl.edu` and
 executing several queries. The queries you will be performing involve a
 database that contains data about music albums, songs and the
 artists involved. The structure of the database is illustrated in 
@@ -123,22 +123,22 @@ the major types of queries along with examples using the Album database.
 ### 2.1 Creating the Database
 
 You will need to "install" the Albums database and data into your own
-database on CSE.  In this context, a "database" refers to a collection
-of related tables and not the database server itself.  On the CSE 
+database.  In this context, a "database" refers to a collection
+of related tables and not the database server itself.  On the 
 database server you only have access to one actual database--the
-database named after your CSE login.
+database named after your login id.
 
-1.  Open MySQL Workbench and connect to your CSE database by doing
+1.  Open MySQL Workbench and connect to your database by doing
     the following.
     
     1.  From the quick launch menu select "Open Connection to Start
         Querying"
 
-    2.  Enter the host name (`cse.unl.edu`), username (your CSE login) and
+    2.  Enter the host name (`cse-linux-01.unl.edu`), username (your canavs login) and
         enter your sql password; click "OK"
 
 2.  Open the `albumsDB.sql` file (or copy-paste its contents) into 
-    Workbench.  Change the `LOGIN` to your own CSE login and execute
+    Workbench.  Change the `LOGIN` to *your* login and execute
     the entire script.
 
 ## 3. Activities 
